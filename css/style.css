@@ -1,3 +1,5 @@
+/*This is where we reset the CSS for ALL of the Browsers*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,7 +20,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset for older browsers */4
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -41,3 +43,56 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*This is where my main Style Starts*/
+
+body {
+	background-color: lightgray;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+div {
+	border: 1px solid: chocolate;
+}
+
+p {
+	background-color: green;
+}
+
+/* End of Reset */
+/* Start of Custom Styles */
+
+.content {
+    padding: 0 15px;
+}
+
+/* Navigation Section */
+
+.top-navigation {
+	background-color: white;
+}
+
+.top-navigation > .content{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.top-navigation .logo {
+	 width: 26px;
+	 height: 70px;
+}
+
+.links li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.top-navigation .links {
+	float: right;
+	margin-top: 20px;
+}
+
+
+

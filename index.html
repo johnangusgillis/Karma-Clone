@@ -1,11 +1,63 @@
+<!--This tells the browser that the document below is html-->
+
 <!DOCTYPE html>
+
+<!--this sets the language as english-->
+
 <html lang="en">
+
+<!--This starts the "header" tag where we tell the complier about some characteristics the header should have-->
+
 <head>
+
+	<!--Here we tell it what the character set is UTF8, this is the default | next what the title is, this shows up on the top of the browser | next where to look for the css file, it has to be in the same folder? | next to look for a certain font from the -->
+
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,500,300,900" rel="stylesheet" type="text/css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+  
 </head>
+
+<!--This is where we tell it (the compiler?) some qualities of the body and potentially some actual content-->
+
 <body>
 	
+	<!--This is a piece of the body called nav... we're telling it that nav is in a class called "top-navigation" that we'll talk about in the css file | then we make a divider and tell it that it's the class "content" again, we'll tell the css more about what characteristics "content" should have | same with "links" then we style the first one "Meet Karma" as active meaning it will have different characteristics | li is a tag that stands for list or link? -->
+
+	<nav class="top-navigation">
+	        <div class="content">
+	            <ul class="links">
+	                <li class="active">Meet Karma</li>
+	                <li>How it Works</li>
+	                <li>Store</li>
+	                <li>Blog</li>
+	                <li>Help</li>
+	                <li>Login</li>
+	            </ul>
+	            <img class="logo" src="images/karma-logo.svg" alt="Logo Image">
+	        </div>
+	    </nav>
+
+		<!--This is an additional section-->
+
+	    <section class="introduction">
+	        <div class="content">
+	            <h1>Introducing Karma</h1>
+	            <h3>Bring WiFi with you, everywhere you go.</h3>
+	            <div class="buttons">
+	                <button>Learn More</button>
+	            </div>
+	        </div>
+    	</section>
+    	<section class="cases">
+
+	<h1>Martin is a good teacher</h1>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste excepturi neque facere. Earum dolor esse laudantium consequuntur, suscipit non impedit. At officiis possimus, placeat atque numquam, ut adipisci beatae error.
+	</p>
+	<div>something here</div>
 </body>
 </html>
