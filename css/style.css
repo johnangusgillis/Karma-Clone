@@ -43,13 +43,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*This is the end of the RESET*/
 
 /*This is where my main Style Starts*/
 
 body {
 	background-color: lightgray;
 	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
 }
 
 div {
@@ -60,7 +64,6 @@ p {
 	background-color: green;
 }
 
-/* End of Reset */
 /* Start of Custom Styles */
 
 .content {
@@ -89,10 +92,59 @@ p {
 	margin: 10px;
 }
 
+.links li:hover {
+	color: orange;
+	cursor: pointer;
+}
+
 .top-navigation .links {
 	float: right;
 	margin-top: 20px;
 }
 
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
 
+/*This is the conent section*/
 
+.introduction {
+	background-image: url('../images/background_image.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+	overflow: hidden;
+}
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+/*The Buttons*/
+
+.buttons {
+	margin: 0 auto;
+}
+.big-button {
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    width: 9.688rem;
+    background-color: #f15a29;
+    color: white;
+    font-size: 1.125rem
+}
