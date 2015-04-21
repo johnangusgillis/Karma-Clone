@@ -48,7 +48,6 @@ table {
 /*This is where my main Style Starts*/
 
 body {
-	background-color: lightgray;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased; 
 	font-size: 16px; 
@@ -136,6 +135,8 @@ p {
 
 .buttons {
 	margin: 0 auto;
+	margin-top: 1rem;
+	width: 10rem;
 }
 .big-button {
 	text-shadow: none;
@@ -143,8 +144,43 @@ p {
     border-radius: 4px;
     padding: 16px 26px;
     line-height: 1.33;
-    width: 9.688rem;
+    width: 10rem;
     background-color: #f15a29;
     color: white;
     font-size: 1.125rem
+
 }
+
+/*This is the styling for the three cases section*/
+
+.cases {
+	background-color: white;
+	height: 30em;
+	margin: 0 auto;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+	color: black;
+}
+
+.cases .content {
+	text-align: center;
+}
+
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+
+.cases .devices img {
+	height: 5em;
+}
+
+.cases h3 {
+	  font-weight: 400;
+	  font-size: 1.563rem;
+	  margin: 2.5rem 0px 1.875rem;
+	  color: black;
