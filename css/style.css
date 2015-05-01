@@ -155,7 +155,7 @@ p {
 
 .cases {
 	background-color: white;
-	height: 30em;
+	height: 20em;
 	margin: 0 auto;
 }
 
@@ -184,3 +184,46 @@ p {
 	  font-size: 1.563rem;
 	  margin: 2.5rem 0px 1.875rem;
 	  color: black;
+}
+
+h4 {
+	padding-top: 10px;
+	color: black;
+	font-size: 2rem;
+}
+
+.social {
+	width: 40em;
+	margin: 0 auto;
+	border-top: 1px solid lightgray;
+}
+
+.social .instagram {
+	color: #3f729b;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .pied-piper {
+	color: #608c28;
+}
+
+.social .content {
+	text-align: center;
+}
+
+.social .content .icons li {
+	  border-radius: 1.25rem;
+	  width: 2.0rem;
+	  height: 0.8rem;
+	  display: inline-block;
+	  margin: 1.25rem 5px;
+	  border: 1px solid #eaebec;
+	  padding: 0.625rem 0;
+	  text-align: center;
+}
+
+
+
